@@ -10,7 +10,7 @@ use List::Util 'min';
 sub new {
 	my ($class, @args) = @_;
 	my $self = $class->SUPER::new(@args);
-	$self->{options}{next_id} = 0;
+	$self->{options}{next_id} = 1;
 	return $self;
 }
 
